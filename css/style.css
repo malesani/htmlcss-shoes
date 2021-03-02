@@ -1,4 +1,7 @@
 /* general */
+html {
+  scroll-behavior:smooth;
+}
 
 *{
   margin: 0;
@@ -7,5 +10,73 @@
 }
 
 body{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Rubik Mono One', sans-serif;
 }
+
+
+/* header (menu) */
+nav{
+  position: fixed;
+  top: 35px;
+  right: 1px;
+  z-index: 2;
+}
+
+ul li{
+  display: inline;
+  background-color: white;
+  margin: 20px;
+  padding: 10px 14px;
+  border-radius: 50%;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+/* contenuto */
+.pagina{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.contenitore{
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img{
+  width: 100%;
+}
+
+h1{
+  text-align: center;
+  font-size: 40px;
+}
+
+
+/* colors */
+h1.yellow{
+  color: yellow;
+}
+
+h1.green{
+  color: green;
+}
+
+.N1{
+  background-color: red;
+}
+
+.N2{
+  background-color: green;
+}
+
+.N3{
+  background-color: yellow;
+}
+
